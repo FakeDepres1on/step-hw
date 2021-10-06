@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 500px;
+	margin: 50px auto;
+}
+fieldset {
+	width: 200px;
+	border: none;
+}
+label {
+	display: flex;
+	border: 1px solid grey;
+	padding: 5px;
+	margin-bottom: 5px; 
+
+}
+.form-block1 label{
+	width: 140px;
+	justify-content: space-between;
+}
+label span{
+	width: 100px;
+}
+input {
+	display: block;
+	margin-left: 5px;
+}
